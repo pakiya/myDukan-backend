@@ -1,0 +1,15 @@
+E:\API_Create_tool\testing\novaapps\api\src\main\java\com\universal\configuration\ErrorAttributes.java
+E:\API_Create_tool\testing\novaapps\api\src\main\java\com\universal\controller\UserProfileController.java
+E:\API_Create_tool\testing\novaapps\api\src\main\java\com\universal\exception\RestClientException.java
+E:\API_Create_tool\testing\novaapps\api\src\main\java\com\universal\config\ConfigManager.java
+E:\API_Create_tool\testing\novaapps\api\src\main\java\com\universal\service\UserProfileService.java
+E:\API_Create_tool\testing\novaapps\api\src\main\java\com\universal\service\helper\http\RestCustomErrorHandler.java
+E:\API_Create_tool\testing\novaapps\api\src\main\java\com\universal\configuration\DependencyConfiguration.java
+E:\API_Create_tool\testing\novaapps\api\src\main\java\com\universal\db\mapper\UserDetailMapper.java
+E:\API_Create_tool\testing\novaapps\api\src\main\java\com\universal\configuration\RequestLogImpl_Fix_LOGBACK_1052.java
+E:\API_Create_tool\testing\novaapps\api\src\main\java\com\universal\exception\ServiceExceptionCodes.java
+E:\API_Create_tool\testing\novaapps\api\src\main\java\com\universal\db\manager\PersistanceManager.java
+E:\API_Create_tool\testing\novaapps\api\src\main\java\com\universal\db\dao\UserProfileDao.java
+E:\API_Create_tool\testing\novaapps\api\src\main\java\com\universal\entity\response\UserDetailsResponse.java
+E:\API_Create_tool\testing\novaapps\api\src\main\java\com\universal\entity\UserWrapper.java
+E:\API_Create_tool\testing\novaapps\api\src\main\java\com\universal\NovaApplication.java

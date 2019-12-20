@@ -1,0 +1,3 @@
+com\universal\entity\response\ApiResponse.class
+com\universal\entity\user\UserSummary.class
+com\universal\entity\user\UserDetails.class

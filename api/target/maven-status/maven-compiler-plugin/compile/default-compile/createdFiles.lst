@@ -1,0 +1,15 @@
+com\universal\service\UserProfileService.class
+com\universal\NovaApplication.class
+com\universal\db\dao\UserProfileDao.class
+com\universal\service\helper\http\RestCustomErrorHandler.class
+com\universal\configuration\ErrorAttributes.class
+com\universal\exception\RestClientException.class
+com\universal\entity\response\UserDetailsResponse.class
+com\universal\configuration\DependencyConfiguration.class
+com\universal\configuration\RequestLogImpl_Fix_LOGBACK_1052.class
+com\universal\db\manager\PersistanceManager.class
+com\universal\controller\UserProfileController.class
+com\universal\exception\ServiceExceptionCodes.class
+com\universal\entity\UserWrapper.class
+com\universal\db\mapper\UserDetailMapper.class
+com\universal\config\ConfigManager.class

@@ -1,0 +1,30 @@
+<configuration>
+
+    <appender name="STD_OUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] -[%X{loggingId}]- %-5level %class{36}.%L- %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="ROLLING_FILE_INFO"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>E:\API_Create_tool\logs\testing-api.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>E:\API_Create_tool\logs\testing-api.%d{yyyy-MM-dd}</fileNamePattern>
+            <maxHistory>5</maxHistory>
+        </rollingPolicy>
+
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] -[%X{loggingId}]- [%X{uri}]- %-5level %class{36}.%L- %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Set some of the 3rd party libraries to log only at INFO or higher levels -->
+    <logger name="org.springframework" level="info" />
+
+    <root level="info">
+        <appender-ref ref="ROLLING_FILE_INFO" />
+        <!--<appender-ref ref="STD_OUT" />-->
+    </root>
+
+</configuration>

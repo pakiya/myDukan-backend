@@ -1,0 +1,21 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+          http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+          http://www.springframework.org/schema/security
+          http://www.springframework.org/schema/security/spring-security.xsd">
+
+    <bean name="springSecurityFilterChain"
+          class="org.springframework.security.web.FilterChainProxy">
+
+        <security:filter-chain-map request-matcher="ant">
+            <security:filter-chain pattern="/**" filters="sessionContextFilter,exceptionFilter, adminRequestValidationFilter"/>
+        </security:filter-chain-map>
+    </bean>
+    <bean id="sessionContextFilter" class="com.universal.security.filter.SecurityContextFilter">
+    </bean>
+    <bean id="exceptionFilter" class="com.universal.security.filter.ExceptionTranslationFilter">
+    </bean>
+    <bean id="adminRequestValidationFilter" class="com.universal.security.filter.AdminRequestValidateFilter"></bean>
+</beans>
